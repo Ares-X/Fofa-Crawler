@@ -17,8 +17,8 @@ class GetFoFa():
     MAX_PAGE = 197
     domain = 'https://fofa.so'
     index = 1
-    cookies = {"_fofapro_ars_session": "6d66ad48fda5ce08925bf91c23a41663", "referer_url": "%2Fresult%3Fq%3Dapp%253D%2522Apache-Flink%2522%2B%2526%2526%2Bafter%253D%25222020-01-01%2522%2B%2526%2526%2Bafter%253D%25222020-01-01%2522%26qbase64%3DYXBwPSJBcGFjaGUtRmxpbmsiICYmIGFmdGVyPSIyMDIwLTAxLTAxIiAmJiBhZnRlcj0iMjAyMC0wMS0wMSI%253D"}
-    headers = {"Connection": "close", "Accept": "text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01", "Sec-Fetch-Dest": "empty", "X-CSRF-Token": "5OWNi0EU9SDOyHIre2vbJDrHhzrzo7/s5zv8f7R9xChpnldnAKP9/0RhaP5ZaxH0J70meyWADSXOs/eEpygEow==", "X-Requested-With": "XMLHttpRequest", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36", "DNT": "1", "Sec-Fetch-Site": "same-origin", "Sec-Fetch-Mode": "cors", "Referer": "https://fofa.so/result?q=app%3D%22Apache-Flink%22+%26%26+after%3D%222020-01-01%22+%26%26+after%3D%222020-01-01%22&qbase64=YXBwPSJBcGFjaGUtRmxpbmsiICYmIGFmdGVyPSIyMDIwLTAxLTAxIiAmJiBhZnRlcj0iMjAyMC0wMS0wMSI%3D", "Accept-Encoding": "gzip, deflate", "Accept-Language": "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7"}
+    cookies = {}
+    headers = {}
 
 
     def __init__(self, key):
